@@ -1,6 +1,6 @@
 package ` id`.ac.polbeng.riska.test_kelas
 
-class initOrder(name: String) {
+class InitOrder(name: String) {
     val firstProperty = "First property: $name".also(::println)
     init {
         println("First initializer block that prints ${name}")
